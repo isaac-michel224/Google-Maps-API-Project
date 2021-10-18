@@ -1,11 +1,11 @@
 var map;
-var coords = {lat: 41.7658, lng: -72.6734};
+//var coords = {lat: 41.7658, lng: -72.6734};
 
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 41.7658, lng: -72.6734},
+          center: coords,
           zoom: 10,
-          scrollwheel: false
+          scrollwheel: true
         });
 
         var image = {

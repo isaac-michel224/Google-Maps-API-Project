@@ -23,7 +23,7 @@ public class MapsServiceImpl implements MapsService {
 
 
         RestTemplate restTemplate = new RestTemplate();
-        GeoCodingResponse response = restTemplate.getForObject(url, GeocodingResponse.class);
+        GeocodingResponse response = restTemplate.getForObject(url, GeocodingResponse.class);
         Location coordinates = response.getResults().get(0).getGeometry().getLocation();
 
 
