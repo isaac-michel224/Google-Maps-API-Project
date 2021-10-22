@@ -1,6 +1,7 @@
 package com.tts.MapsApp.controller;
 
 import com.tts.MapsApp.model.Location;
+import com.tts.MapsApp.service.MapsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
